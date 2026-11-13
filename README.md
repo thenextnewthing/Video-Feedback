@@ -35,7 +35,7 @@ npm test
 npm start
 ```
 
-Open **http://127.0.0.1:8765**. Add your videos to `assets/app/media/`, then edit `assets/app/public/stories.json`. The sample catalog contains fictional titles, not bundled footage.
+Open **http://127.0.0.1:8765**. From that same `assets/app` directory, add your videos to `media/` (created on first start), then edit `public/stories.json`. The sample catalog contains fictional titles, not bundled footage.
 
 For example:
 
@@ -76,6 +76,6 @@ It is not a video editor, cloud account, public sharing service, automatic trans
 
 Run `npm test` inside `assets/app`. Tests cover draft isolation and idempotency, range serving, submission selection and partial failures, and dictation lifecycle. Physical iPhone behavior must be checked on a real device; desktop tests cannot guarantee microphone support.
 
-## Publication review
+## License
 
-This is a prepared package, not a published repository. Review screenshots, privacy exclusions, and licensing before publishing. No license grant is included yet.
+The code and documentation text are released under the **[MIT License](LICENSE)**. The license excludes the screenshots (`docs/desktop.png` and `docs/mobile.png`) and the image and likeness of Andrew Warner shown in them; no rights to those images or that likeness are granted.
